@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: '['}
+  - {t: '`', h: Gui+Ctl+ Q}
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - '['
+  - {t: ']', h: '['}
   - {t: Ctl+ B, h: Ctrl}
   - {t: A, h: LEFT COMMAND}
   - {t: S, h: LEFT ALT}
