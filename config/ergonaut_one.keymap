@@ -31,9 +31,9 @@
 
         default_layer {
             bindings = <
-&mt LG(LC(Q)) GRAVE  &kp Q               &kp W           &kp E         &kp R             &kp T      &kp Y        &kp U         &kp I         &kp O            &kp P         &mt LBKT RIGHT_BRACKET
-&mt LCTRL LC(B)      &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G      &kp H        &mt RSHIFT J  &mt RCTRL K   &mt RIGHT_ALT L  &mt RCMD SQT  &kp SEMI
-&mt LALT MINUS       &lt 4 Z             &kp X           &kp C         &kp V             &kp B      &kp N        &kp M         &kp COMMA     &kp DOT          &kp FSLH      &mt RALT BSLH
+&mt LG(LC(Q)) GRAVE  &kp Q               &kp W           &kp E         &kp R             &kp T      &kp Y        &kp U         &kp I         &kp O            &kp P               &mt LBKT RIGHT_BRACKET
+&mt LCTRL LC(B)      &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G      &kp H        &mt RSHIFT J  &mt RCTRL K   &mt RIGHT_ALT L  &mt RCMD SEMICOLON  &kp SINGLE_QUOTE
+&mt LALT MINUS       &lt 4 Z             &kp X           &kp C         &kp V             &kp B      &kp N        &kp M         &kp COMMA     &kp DOT          &kp FSLH            &mt RALT BSLH
                                                          &lt 3 ESCAPE  &lt 2 SPACE       &lt 1 TAB  &lt 6 ENTER  &lt 5 BSPC    &lt 7 DELETE
             >;
         };

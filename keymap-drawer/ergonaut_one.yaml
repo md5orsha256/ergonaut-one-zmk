@@ -22,8 +22,8 @@ layers:
   - {t: J, h: RSHIFT}
   - {t: K, h: Ctrl}
   - {t: L, h: RIGHT ALT}
-  - {t: '''', h: RCMD}
-  - ;
+  - {t: ;, h: RCMD}
+  - ''''
   - {t: '-', h: Alt}
   - {t: Z, h: mouse}
   - X
