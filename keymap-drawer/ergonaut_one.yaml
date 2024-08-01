@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: ']', h: '['}
+  - {t: '[', h: ']'}
   - {t: Ctl+ B, h: Ctrl}
   - {t: A, h: LEFT COMMAND}
   - {t: S, h: LEFT ALT}
@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: adjust}
   - {t: \, h: Alt}
   - {t: ESCAPE, h: media}
   - {t: ␣, h: arrows}
@@ -335,11 +335,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - Reset
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
