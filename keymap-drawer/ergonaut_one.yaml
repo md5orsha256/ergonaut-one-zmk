@@ -356,7 +356,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
-  - LSHIFT
+  - LEFT ALT
   - A
   - S
   - D
