@@ -386,3 +386,46 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  win_default:
+  - {t: '`', h: Gui+Ctl+ Q}
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', h: ']'}
+  - {t: Ctl+ B, h: Ctrl}
+  - {t: A, h: LEFT COMMAND}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: Ctrl}
+  - {t: F, h: LEFT SHIFT}
+  - G
+  - H
+  - {t: J, h: RSHIFT}
+  - {t: K, h: Ctrl}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RCMD}
+  - ''''
+  - {t: '-', h: Alt}
+  - {t: Z, h: mouse}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: adjust}
+  - {t: \, h: Alt}
+  - {t: ESCAPE, h: media}
+  - {t: ␣, h: arrows}
+  - {t: ↹, h: f}
+  - {t: ENTER, h: chars}
+  - {t: ⌫, h: digits}
+  - {t: DELETE, h: adjust}
