@@ -402,12 +402,12 @@ layers:
   - {t: Ctl+ B, h: Ctrl}
   - {t: A, h: LEFT CONTROL}
   - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT WIN}
+  - {t: D, h: Ctrl}
   - {t: F, h: LEFT SHIFT}
   - G
   - H
   - {t: J, h: RSHIFT}
-  - {t: K, h: RIGHT WIN}
+  - {t: K, h: Ctrl}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RIGHT CONTROL}
   - ''''
