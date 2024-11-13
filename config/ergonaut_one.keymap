@@ -17,32 +17,25 @@
 };
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri-layer {
-            if-layers = <2 3>;
-            then-layer = <7>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&mt LG(LC(Q)) GRAVE  &kp Q               &kp W           &kp E         &kp R             &kp T      &kp Y        &kp U         &kp I         &kp O            &kp P               &mt RBKT LBKT
-&mt LCTRL LC(B)      &mt LEFT_COMMAND A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G      &kp H        &mt RSHIFT J  &mt RCTRL K   &mt RIGHT_ALT L  &mt RCMD SEMICOLON  &kp SINGLE_QUOTE
-&mt LALT MINUS       &lt 4 Z             &kp X           &kp C         &kp V             &kp B      &kp N        &kp M         &kp COMMA     &kp DOT          &lt 7 SLASH         &mt RALT BSLH
-                                                         &lt 3 ESCAPE  &lt 2 SPACE       &lt 1 TAB  &lt 6 ENTER  &lt 5 BSPC    &lt 7 DELETE
+&mt LG(L) GRAVE     &kp Q        &kp W           &kp E         &kp R             &kp T      &kp Y        &kp U         &kp I         &kp O            &kp P                &mt RBKT LBKT
+&mt LEFT_GUI LC(B)  &mt LCTRL A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G      &kp H        &mt RSHIFT J  &mt RCTRL K   &mt RIGHT_ALT L  &mt RCTRL SEMICOLON  &mt RWIN SINGLE_QUOTE
+&mt LALT MINUS      &lt 4 Z      &kp X           &kp C         &kp V             &kp B      &kp N        &kp M         &kp COMMA     &kp DOT          &lt 7 SLASH          &mt RALT BSLH
+                                                 &lt 3 ESCAPE  &lt 2 SPACE       &lt 1 TAB  &lt 6 ENTER  &lt 5 BSPC    &lt 7 DELETE
             >;
         };
 
         f {
             bindings = <
 &trans  &trans    &trans    &trans     &trans      &trans  &kp PRINTSCREEN  &kp F7  &kp F8  &kp F9  &kp F12  &to 8
-&trans  &kp LWIN  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans  &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11  &to 9
-&trans  &trans    &trans    &trans     &trans      &trans  &trans           &kp F1  &kp F2  &kp F3  &kp F10  &to 0
+&trans  &kp LWIN  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans  &kp SCROLLLOCK   &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&trans  &trans    &trans    &trans     &trans      &trans  &trans           &kp F1  &kp F2  &kp F3  &kp F10  &trans
                             &trans     &trans      &trans  &trans           &trans  &trans
             >;
         };
@@ -103,19 +96,10 @@
 
         game {
             bindings = <
-&trans        &kp Q   &kp W   &kp E   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
-&kp LEFT_ALT  &kp A   &kp S   &kp D   &kp F   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        win_default_layer {
-            bindings = <
-&mt LG(LC(Q)) GRAVE  &kp Q               &kp W           &kp E         &kp R             &kp T      &kp Y        &kp U         &kp I         &kp O            &kp P                        &mt RBKT LBKT
-&mt LCTRL LC(B)      &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LCTRL D   &mt LEFT_SHIFT F  &kp G      &kp H        &mt RSHIFT J  &mt RCTRL K   &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMICOLON  &kp SINGLE_QUOTE
-&mt LALT MINUS       &lt 4 Z             &kp X           &kp C         &kp V             &kp B      &kp N        &kp M         &kp COMMA     &kp DOT          &lt 7 SLASH                  &mt RALT BSLH
-                                                         &lt 3 ESCAPE  &lt 2 SPACE       &lt 1 TAB  &lt 6 ENTER  &lt 5 BSPC    &lt 7 DELETE
+&kp LEFT_SHIFT  &kp Q   &kp W   &kp E   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &to 0
+&kp LEFT_ALT    &kp A   &kp S   &kp D   &kp F   &kp G   &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
